@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div id="carousel">
+    <div class="carousel">
+      <div>
+        <img id="closeModal" src="./images/close-orange.svg" alt="">
+        <img class="product1" id="productCarousel" src="./images/image-product-1.jpg" alt="">
+        <div class="circles_wrapper">
+          <div class="circle" style="transform:rotate(180deg) ;">
+            <img src="./images/icon-next.svg" alt="">
+          </div>
+          <div class="circle">
+            <img src="./images/icon-next.svg" alt="">
+          </div>
+        </div>
+
+        <div class="thumbnail_wrapper">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <img id="menu" src="./images/icon-menu.svg" alt="">
+        <img src="./images/logo.svg" alt="">
+        <div id="collapse_wrapper">
+          <ul id="collapse">
+            <li id="close"><img src="./images/icon-close.svg" alt=""></li>
+            <li> <a href="">Collections</a> </li>
+            <li> <a href=""> Men</a></li>
+            <li> <a href="">Women</a> </li>
+            <li> <a href="">About</a> </li>
+            <li> <a href="">Contact</a> </li>
+          </ul>
+        </div>
+
+      </ul>
+      <div class="avatar">
+        <div id="count2">0</div>
+        <img id="cart" src="./images/icon-cart.svg" alt="cart">
+        <div id="user_cart">
+          <h1>Cart</h1>
+          <div>
+            <div id="basket_wrapper">
+
+            </div>
+            <button id="checkout">Checkout</button>
+          </div>
+
+
+        </div>
+        <img class="avatar_img" src="./images/image-avatar.png" alt="avatar">
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <div>
+          <img class="product1" onclick="Carousel()" id="product1" src="./images/image-product-1.jpg" alt="">
+          <div class="thumbnail_wrapper">
+
+          </div>
+          <div class="products_circles_wrapper">
+            <div class="circle" style="transform:rotate(180deg) ;">
+              <img src="./images/icon-next.svg" alt="">
+            </div>
+            <div class="circle">
+              <img src="./images/icon-next.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3>SNEAKER COMPANY</h3>
+        <h1>Fall Limited Edition <br> Sneakers</h1>
+        <p class="paragraph">These low-profile sneakers are your perfect casual wear <br>
+          companion. Featuring a durable rubber outer scole, they'll <br>
+          withstand everything the weather can offer.
+        </p>
+        <div class="price">
+          <div class="sale">
+            <h2>$125.00 </h2><span>50%</span>
+          </div>
+          <h4>$250.00</h4>
+        </div>
+
+
+        <div class="buttons">
+          <div class="counter">
+            <img id="minus" src="./images/icon-minus.svg" alt="">
+            <p id="counter">0</p>
+            <img id="plus" src="./images/icon-plus.svg" alt="">
+          </div>
+          <div id="add_btn" class="add_wrapper">
+            <img src="./images/shopping-cart-2-line.svg" alt="">
+            <button class="add_btn">Add to cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
